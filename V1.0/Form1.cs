@@ -39,5 +39,10 @@ namespace V1._0
             txtDueDate.Clear();
         }
 
+        private void button2_Click(object sender, EventArgs e)
+        {
+            txtTask.Text = "";
+        }
+
     }
 }
